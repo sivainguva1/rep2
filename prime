@@ -1,0 +1,32 @@
+package test;
+
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+		int count=0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println(" enter the number");
+		int n = sc.nextInt();
+		for (int i=1;i<=n;i++) {
+			if(n==1) {
+				System.out.println("composite");
+			}
+				
+			    if (n%i==0) {
+			     count = count+1;
+			    }
+		}
+		if (count>2)
+		{
+			System.out.println("not prime");
+		}
+		else
+			System.out.println("prime");
+		}
+}
+		
+			
+			
+		
