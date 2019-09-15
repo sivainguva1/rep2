@@ -1,0 +1,33 @@
+package ams;
+
+import java.util.Scanner;
+
+public class ams {
+
+	public static void main(String[] args) {
+		int x,n1,y,y1,a,b,c,d;
+		Scanner sc = new Scanner(System.in);
+			System.out.println(" enter the number");
+			int n = sc.nextInt();
+			y1=n/10;
+				x=n/100;
+				y=y1%10;
+				n1=n%10;
+				a=x*x*x;
+				b=y*y*y;
+				c=n1*n1*n1;
+				d=a+b+c;
+				if(d==n)
+				{
+					System.out.println("ams");
+					
+				}
+				else {
+					System.out.println("not ams");
+				}
+			
+	
+	}
+}
+
+
